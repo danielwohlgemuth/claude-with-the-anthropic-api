@@ -13,3 +13,7 @@ wheels/
 dataset.json
 output.json
 output.html
+scholarly-dataset.json
+scholarly-output.json
+scholarly-output.html
+.DS_Store
