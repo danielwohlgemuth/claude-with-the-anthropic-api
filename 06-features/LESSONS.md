@@ -34,3 +34,12 @@ Block order:
 1. Tool
 2. System
 3. Message
+
+## Code Execution
+
+Code execution can be enabled by passing in a code execution tool. See https://platform.claude.com/docs/en/agents-and-tools/tool-use/code-execution-tool for the appropriate tool for each model.
+
+Code execution combines well with the Files API to work with files either as inputs or outputs.
+
+The code is executed in containers, which are isolated from the network and focused on running Python.
+They can be reused and expire 30 days after creation.
