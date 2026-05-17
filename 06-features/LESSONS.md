@@ -2,7 +2,7 @@
 
 ## Images
 
-An aproximate formula for estimating token usage from images is `width px * height px / 750`.
+An approximate formula for estimating token usage from images is `width px * height px / 750`.
 
 Additional considerations when working with images can be found at https://platform.claude.com/docs/en/build-with-claude/vision.
 
@@ -16,13 +16,13 @@ Optimization suggestions:
 - Place PDFs before instructions
 - Split large PDFs into smaller parts
 
-For larger files or files that are reused more frequently, the [Files API](https://platform.claude.com/docs/en/build-with-claude/files) can be used to upload the files and then reference the file by the file ID.
+For larger files or those reused more frequently, the [Files API](https://platform.claude.com/docs/en/build-with-claude/files) can be used to upload the files and reference them by Id in the message.
 
 ## Prompt Caching
 
-Caching can be enabled by adding a cache breakpoint to a block. That block and all previous block will then be cached.
+Caching can be enabled by adding a cache breakpoint to a block. That block and all previous blocks will then be cached.
 Up to 4 cache breakpoints can be specified.
-Content of all messages must be at least 1024 tokens long to be cached.
+The content of all messages must be at least 1024 tokens long to be cached.
 
 Supported blocks are:
 - Text

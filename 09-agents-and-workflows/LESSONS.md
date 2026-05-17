@@ -2,8 +2,8 @@
 
 ## Evaluator-Optimizer Workflow Pattern
 
-- Producer creates an output
-- Grader evaluates the output against a criteria and either accepts it or rejects it with feedback
+- A producer creates an output
+- A grader evaluates the output against the criteria and either accepts it or rejects it with feedback
 
 ## Parallelization
 
@@ -15,4 +15,4 @@ Similar to parallelization, this approach breaks large tasks into smaller steps,
 
 ## Routing
 
-The input is first classified into a category and then forwarded to a pipeline with category specific prompts and tools.
+The input is first classified into a category and then forwarded to a pipeline with category-specific prompts and tools.

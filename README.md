@@ -3,9 +3,9 @@
 This is a follow-along of the [Building with the Claude API](https://anthropic.skilljar.com/claude-with-the-anthropic-api) course by Anthropic.
 
 My main takeaways from this course are:
-- the importance of having a prompt evaluation strategy to systematically improve the prompts
-- the use of start and stop sequences to guide the model to output a specific format
-- the use of XML tags to delimit a section
+- the importance of having a prompt evaluation strategy to systematically improve prompts
+- the use of start and stop sequences to guide the model to produce a specific format
+- the use of XML tags to delimit sections
 
 ## Lessons Learned
 
@@ -23,8 +23,8 @@ The course itself is free, but accessing the API is not. Completing the course w
 
 ![Claude API Course Cost](/assets/claude-api-course-cost.png)
 
-Apparently there is a free tier, but with lower limits. I haven't seen it advertised anywhere, that's why I went with the $5 plan. The credits expire after one year.
+Apparently there is a free tier, but it has lower limits. I haven't seen it advertised anywhere; that's why I went with the $5 plan. The credits expire after one year.
 
-A positive impression from the Claude Console is that the spend limit is honored. The request that exceeds the limit still finishes without getting interrupted, but subsequent requests receive a rate limit response
+A positive impression from the Claude Console is that the spend limit is honored. The request that exceeds the limit still finishes without getting interrupted, but subsequent requests receive a rate limit response.
 
 ![Claude API Limits](/assets/claude-api-limits.png)
